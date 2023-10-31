@@ -13,6 +13,7 @@
   padding: 20px;
   font-size: 30px;
   text-align: center;
+  flex-direction: column;
 }
 </style>
 </head>
@@ -27,31 +28,20 @@
 </div> <p>Contact Page for contacting <em>Stephen</em> <em> Howard </em></p>
 
 
-<div class="container">
-    <div style="text-align:center">
-      <h2>Contact <em>Me!!!</em></h2>
-    </div>
-    <div class="row">
-      <div class="column">
-        <img src="http://www.vidiani.com/maps/maps_of_north_america/maps_of_usa/north_carolina_state/detailed_tourist_illustrated_map_of_north_carolina_1.jpg" style="width:20">
-      </div>
-      <div class="column">
-        <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          <label for="country">Country</label>
+<form action="http://www.howardtechindustriesllc.com">
+    <label for="firname">First name:</label><br>
+    <input type="text" id="firname" name="firname" value="Enter"><br>
+    <label for="lasname">Last name:</label><br>
+    <input type="text" id="lasname" name="lasname" value="Your"><br>
+    <label for="lasname">Email:</label><br>
+    <input type="text" id="email" name="email" value="Info"><br>
+    <label for="yourMessage">Message:</label><br>
+    <input type="text" id="yourMessage" name="yourMessage" value="Please"><br><br>
+    <label for="country">Country</label>
           <select id="country" name="country">
             <option value="usa">USA</option>
-          </select>
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
-    </div>
-
+    <input type="submit" value="Submit">
+  </form> 
 
 
 </body>
